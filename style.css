@@ -9,10 +9,45 @@ body{
 }
 
 nav {
-    position: fixed;
+    position: sticky;
     top: 0px;
     background-color: white;
-    height: 54px;
+    height: 3.4rem;
     width: 100%;
     border-bottom: 1px solid #ececec;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3.4rem;
+    padding: 0rem 1.5rem;
+}
+
+#freetrial {
+    margin-left: 40rem;
+}
+
+#signin {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+#adobe_logo {
+    margin-left: auto;
+}
+
+.navtext {
+    font-family: 'Inter', sans-serif;
+    margin-left: 1.5rem;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+.fa-angle-down {
+    margin-left: 0.200rem;
+    padding-top: 0.137rem;
+    font-size: 0.83rem;
+    color: #707070;
 }
