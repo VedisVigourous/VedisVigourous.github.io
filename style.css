@@ -23,7 +23,8 @@ nav {
     align-items: center;
     height: 3.4rem;
     padding: 0rem 1.5rem;
-    width: max-content;    
+    width: 100%;    
+    min-width: fit-content;
 }
 
 .nav_right {
