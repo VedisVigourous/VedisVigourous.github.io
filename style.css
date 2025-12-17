@@ -23,6 +23,15 @@ nav {
     align-items: center;
     height: 3.4rem;
     padding: 0rem 1.5rem;
+    width: auto;    
+}
+
+.nav_right {
+    display: flex;
+    padding: 0rem;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
 }
 
 #freetrial {
@@ -31,12 +40,12 @@ nav {
 
 #signin {
     margin-left: 1rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 
-#adobe_logo {
-    margin-left: auto;
-}
+/* #adobe_logo {
+    margin-right: 0.5rem;
+} */
 
 .navtext {
     font-family: 'Inter', sans-serif;
