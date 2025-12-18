@@ -6,6 +6,7 @@
 
 body{
     background-color: #f5f8ff;
+    min-width: fit-content;
 }
 
 nav {
@@ -60,6 +61,32 @@ nav {
 .introStyle {
     height: 630px;
     width: 100%;
-    min-width: fit-content;
-    background-color: bisque;
+    align-content: center;
+}
+
+.centralText {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Archivo' , sans-serif;
+    font-size: 5rem;
+    margin: 0px;
+    line-height: 0.85;
+}
+
+#blue_text {
+    color: #0057ff;
+}
+
+.subText {
+    text-align: center;
+    font-family: 'Inter' , sans-serif;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.importantButtons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
 }
