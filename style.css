@@ -43,10 +43,6 @@ nav {
     margin-right: 1rem;
 }
 
-/* #adobe_logo {
-    margin-right: 0.5rem;
-} */
-
 .navtext {
     font-family: 'Inter', sans-serif;
     margin-left: 1.5rem;
@@ -59,4 +55,11 @@ nav {
     padding-top: 0.137rem;
     font-size: 0.83rem;
     color: #707070;
+}
+
+.introStyle {
+    height: 630px;
+    width: 100%;
+    min-width: fit-content;
+    background-color: bisque;
 }
