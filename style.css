@@ -5,9 +5,7 @@
 }
 
 body{
-    /* min-width: fit-content; */
-    max-width: 100vw;
-    overflow-x: hidden;
+    min-width: fit-content;
 }
 
 nav {
@@ -63,6 +61,7 @@ nav {
     display: flex;
     height: 630px;
     width: 100%;
+    min-width: fit-content;
     align-content: center;
     background: linear-gradient(to bottom, #f5f8ff 85% , #ffffff 100%);
 }
@@ -256,7 +255,8 @@ nav {
 .categoryBar {
     display: flex;
     align-items: center;
-    margin: 1rem ;
+    box-sizing: border-box;
+    padding: 1rem 0rem 0rem 1rem;
     gap: 0.6rem;
     width: 100%;
     max-width: 100vw;
