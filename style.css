@@ -235,7 +235,9 @@ nav {
 
 .Recmnd {
     flex: 1;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background: none;
     border: 1px solid #e8e8e8;
