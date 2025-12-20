@@ -258,8 +258,8 @@ nav {
     box-sizing: border-box;
     padding: 1rem 0rem 0rem 1rem;
     gap: 0.6rem;
-    width: 100%;
-    max-width: 100vw;
+    width: 0;
+    min-width: 100%;
     overflow-x: auto;
 }
 
