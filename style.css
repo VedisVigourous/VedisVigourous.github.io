@@ -274,8 +274,10 @@ nav {
 }
 
 .categories:hover {
-    background-color: yellow;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    transform: scale(1.05);
+    box-shadow: 0 0 5px 
+   rgb(255, 237, 2);
 }
 
 
