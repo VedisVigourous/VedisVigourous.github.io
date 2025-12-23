@@ -11,7 +11,7 @@ This space showcases the projects I’m building and experimenting with as I gro
 
 - A front-end clone of [Behance](https://www.behance.com/) built with **HTML and CSS**.
 - Focused on responsive design, clean UI, and replicating Behance’s creative showcase features.
-- Completed ✅ - Feel free to check it by clicking *Behance by Adobe Clone* ☝🏻
+- Completed ✅ - Feel free to check it by clicking [*Behance by Adobe Clone*] ☝🏻
 
 ---
 
