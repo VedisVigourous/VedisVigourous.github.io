@@ -295,11 +295,43 @@ nav {
     justify-items: center;
 }
 
+.contentInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mainTitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.Appreciations {
+    display: flex;
+    gap: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.Author {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    color: #232323;
+    margin-bottom: 0.5rem;
+}
+
+.fa-thumbs-up , .fa-eye {
+    color: #707070;
+    font-size: 0.9rem;
+}
+
+
 .mainImages {
     width: 100%;
     object-fit: cover;
     height: 269px;
     border-radius: 5px;
+    margin-bottom: 0.3rem;
 }
 
 
