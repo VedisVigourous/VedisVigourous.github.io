@@ -286,5 +286,21 @@ nav {
    rgb(255, 237, 2);
 }
 
+.mainGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    gap: 1rem;
+    margin: 15px 1rem;
+    justify-items: center;
+}
+
+.mainImages {
+    width: 100%;
+    object-fit: cover;
+    height: 269px;
+    border-radius: 5px;
+}
+
+
 
 
