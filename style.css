@@ -272,6 +272,7 @@ nav {
     position: sticky;
     top: 7.23rem;
     background-color: white;
+    border-bottom: 2px solid rgb(232, 232, 232);
 }
 
 .categoryBar::-webkit-scrollbar {
@@ -336,4 +337,67 @@ nav {
     height: 269px;
     border-radius: 5px;
     margin-bottom: 0.3rem;
+}
+
+.signInDiv {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.signInDiv p {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: black;
+    margin: 2px;
+}
+
+#signintext{
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.buttons {
+    margin-top: 0.5rem;
+}
+
+.buttons div {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    justify-content: center;
+    padding: 0.8rem;
+    width: 18rem;
+    height: 3rem;
+    letter-spacing: -0.03rem;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 2px solid #EAEAEA;
+}
+
+.buttons div:hover {
+    border: 2px solid #D3D3D3;
+}
+
+.buttons div p {
+    font-size: 0.8rem;
+    font-family: 'Inter' , sans-serif;
+    color: #464646;
+}
+
+#anchorsignIn {
+    margin-top: 0.9rem;
+    color: #0054B6;
+    font-size: 0.9rem;
+    font-family: 'Inter' , sans-serif;
+    text-decoration: none;
+}
+
+#anchorsignIn:hover {
+    text-decoration: underline;
 }
