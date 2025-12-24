@@ -382,6 +382,7 @@ nav {
 
 .buttons div:hover {
     border: 2px solid #D3D3D3;
+    cursor: pointer;
 }
 
 .buttons div p {
@@ -401,3 +402,48 @@ nav {
 #anchorsignIn:hover {
     text-decoration: underline;
 }
+
+.emailsign{
+    justify-items: center;
+    font-family: 'Inter' , sans-serif;
+}
+
+#emailInput {
+    justify-items: center;
+    margin-top: 0.7rem;
+    cursor: text;
+}
+
+#usermail {
+    height: 2rem;
+    width: 15rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    font-family: 'Inter'; 
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+    
+}
+
+#usermail:hover {
+    transform: scale(1.2);
+}
+
+#emailBtn {
+    display: flex; 
+    align-items: center; 
+    background-color: #707070; 
+    padding: 0.5rem; 
+    border-radius: 30px; 
+    border: 2px solid #707070;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+#emailBtn:hover{
+    background-color: black;
+    border: 2px solid black;
+    transform: scale(1.1);
+}
+
