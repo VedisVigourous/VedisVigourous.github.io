@@ -345,7 +345,7 @@ nav {
     justify-items: center;
     align-items: center;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .signInDiv p {
@@ -445,5 +445,24 @@ nav {
     background-color: black;
     border: 2px solid black;
     transform: scale(1.1);
+}
+
+.lastBlackDiv{
+    background-color: #191919;
+    height: 20rem;
+    width: 100%;
+    min-width: fit-content;
+    padding: 5.125rem 3.125rem;
+}
+
+#Credit {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-family: "Jersey 10" , sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
 }
 
