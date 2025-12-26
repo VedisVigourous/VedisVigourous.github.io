@@ -424,7 +424,7 @@ nav {
     font-size: 0.8rem;
     transition: transform 0.3s ease;
     caret-color: #232323;
-    caret-shape: bar;
+    caret-shape: underscore;
 
 }
 
@@ -451,10 +451,12 @@ nav {
 
 .lastBlackDiv{
     background-color: #191919;
-    height: 20rem;
+    height: 35rem;
     width: 100%;
     min-width: fit-content;
-    padding: 5.125rem 3.125rem;
+    padding: 4.125rem 3.125rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 #Credit {
@@ -468,3 +470,32 @@ nav {
     margin-bottom: 0.6rem;
 }
 
+.blackDivLists {
+    padding-top: 15px;
+    font-family: 'Inter' , sans-serif;
+}
+
+.blackDivLists p {
+    font-family: 'Righteous';
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.blackDivLists li {
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#nestedDiv {
+    display: flex;
+    gap: 4rem;
+    margin-right: 5rem;
+}
+
+#socialConnects {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
