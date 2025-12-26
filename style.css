@@ -423,7 +423,9 @@ nav {
     font-family: 'Inter'; 
     font-size: 0.8rem;
     transition: transform 0.3s ease;
-    
+    caret-color: #232323;
+    caret-shape: bar;
+
 }
 
 #usermail:hover {
