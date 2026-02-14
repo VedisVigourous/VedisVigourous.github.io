@@ -574,6 +574,10 @@ nav {
         margin: 0px 1rem;
     }
 
+    .filter {
+        display: none;
+    }
+
     .searchBar {
         flex: 1 1 100%;
         height: auto;
