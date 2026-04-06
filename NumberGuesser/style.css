@@ -125,6 +125,44 @@ button:active {
     gap: 10px;
 }
 
+.credit {
+    margin: 24px 0 0;
+    text-align: center;
+    color: #75614e;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+}
+
+.credit a {
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.credit a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    opacity: 0.35;
+    transition: opacity 0.2s ease;
+}
+
+.credit a:hover::after {
+    opacity: 0.8;
+}
+
+.credit a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px var(--focus);
+    border-radius: 6px;
+}
+
 #message {
     font-size: 1.08rem;
     line-height: 1.45;
