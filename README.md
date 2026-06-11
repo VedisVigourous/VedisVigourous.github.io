@@ -4,15 +4,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Projects](#-projects)
-- [Tech Stack](#-tech-stack)
-- [Goals](#-goals)
-- [Connect](#-connect-with-me)
-
----
-
 ## 🎯 Projects
 
 ### 1️⃣ 🎨 **Behance by Adobe Clone**
