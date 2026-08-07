@@ -13,7 +13,7 @@ Thank you for reviewing my Technical Role submission. Below you will find my Beh
 
 **Status:** ✅ Completed | **Location:** `/BehanceClone`
 
-A fully responsive front-end replica of Behance.com, showcasing creative portfolio design patterns.
+A high-fidelity front-end replica of Behance.com, showcasing creative portfolio design patterns.
 
 #### ✨ Features
 - **Creative Grid Layout** - Professional showcase of projects and portfolios
