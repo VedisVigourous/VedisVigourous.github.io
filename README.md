@@ -8,12 +8,14 @@
 
 ### 1️⃣ 🎨 **Behance by Adobe Clone**
 
+# 👋 Welcome Technovation Club Evaluators! 
+Thank you for reviewing my Technical Role submission. Below you will find my Behance Clone project for **Task 2**, alongside my other frontend experiments.
+
 **Status:** ✅ Completed | **Location:** `/BehanceClone`
 
 A fully responsive front-end replica of Behance.com, showcasing creative portfolio design patterns.
 
 #### ✨ Features
-- **Responsive Design** - Optimized for desktop, tablet, and mobile devices
 - **Creative Grid Layout** - Professional showcase of projects and portfolios
 - **Clean Navigation** - Intuitive header and category browsing
 - **Rich UI Components** - Buttons, cards, icons, and interactive elements
@@ -24,6 +26,8 @@ A fully responsive front-end replica of Behance.com, showcasing creative portfol
 - CSS3 for advanced styling and animations
 - Modular component-based architecture
 
+**⚠️ Known Limitations (Task 2 Requirement):**
+- The clone is highly accurate for Desktop / Full-HD (1080p) viewports. Mobile responsiveness was temporarily deferred to focus on desktop pixel perfection and is under active enhancement for the next iteration.
 ---
 
 ### 2️⃣ 🎮 **Number Guessing Game**
